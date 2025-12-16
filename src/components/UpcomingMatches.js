@@ -17,7 +17,7 @@ export default function UpcomingMatches() {
 
   return (
     <>
-      <h2 align="center">🔮 Upcoming Matches</h2>
+      <h2 align="center">🔮 Upcoming-Matches</h2>
       {loading
         ? [...Array(3)].map((_, i) => <SkeletonCard key={i} />)
         : matches.map((m, i) => <MatchCard key={i} match={m} />)}
