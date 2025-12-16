@@ -1,0 +1,93 @@
+/* Navigation */
+.nav-btn {
+  padding: 10px 18px;
+  border-radius: 15px;
+  border: none;
+  background: #e8e8e8;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  background: #00a86b;
+  color: white;
+}
+
+/* Score Card */
+.score-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 18px auto;
+  width: 420px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: all 0.3s;
+}
+
+.score-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Match Title */
+.match-title {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Team Row */
+.team-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Team Logo */
+.team-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #00a86b;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Status */
+.status {
+  color: #0074ff;
+  margin-top: 12px;
+  font-weight: 700;
+}
+
+/* LIVE Badge */
+.live-badge {
+  background: #ff1f1f;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  animation: blink 1s infinite;
+}
+
+/* Blinking animation */
+@keyframes blink {
+  50% {
+    opacity: 0.4;
+  }
+}
+
+/* Scorecard Styling */
+.inning-box {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
